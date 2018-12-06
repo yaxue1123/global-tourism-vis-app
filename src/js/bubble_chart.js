@@ -74,7 +74,7 @@
             " - " + $("#bubble-slider").slider("values", 1));
     });
 
-    $("#arrive_depart").change(function () {
+    $("#arrive-depart-2").change(function () {
         filterData();
         render(generateData());
     })
@@ -90,7 +90,7 @@
     var SYEAR = "2014"
 
     function filterData() {
-        if ($("#arrive_depart").val() === "arrivals") {
+        if ($("#arrive-depart-2").val() === "arrivals") {
             // X axis for tourist visit
             XDATA = "arrivals"
             // Y axis for expenditure
