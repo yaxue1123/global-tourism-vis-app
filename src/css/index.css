@@ -1,0 +1,104 @@
+html, body {
+    height: 100vh;
+    max-height: 100%;
+}
+
+.container-fluid-1{
+    display: block;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.container-fluid-2 {
+    display: none;
+    width: 84%;
+    margin: 0 8% 0 8%
+}
+
+#filter-input-1{
+    height: 70px;
+}
+
+#filter-input-2 {
+    margin-top: 20px
+}
+
+.custom-select{
+    width: fit-content;
+}
+
+#country{
+    min-width: 65%
+}
+
+#mapid {
+    height: 65vh;
+    width: 100%;
+}
+
+#country-list {
+    height: 15vh;
+}
+.card {
+    width: 100%;
+    margin: 5px 0 5px 0
+}
+
+.graph {
+    width: 100%;
+    height: 45vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#vis_canvas1, #vic_canvas2{
+    height: 100vh; 
+    width: 100%;  
+}
+
+.graph-head {
+    font-size: 1.2em;
+    margin: .5em 0;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.bubble-chart {
+    height: 90vh
+}
+
+/* .axis path {
+    display: none;
+} */
+
+.axis line {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+nav {
+    cursor: pointer;
+}
+
+.ui-slider-range, 
+.ui-slider-handle, 
+.ui-state-activate,
+.ui-state-focus {
+    background: #f6a828;
+    outline: none;
+}
+
